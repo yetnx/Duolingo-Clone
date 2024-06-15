@@ -121,8 +121,8 @@
     }
     
     .grande {
-        height: 500px;
-        width: 500px;
+        height: 400px;
+        width: 400px;
     }
     
     .medio {
@@ -145,7 +145,7 @@
     
     .first {
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         justify-content: center;
         align-items: center;
         height: 84vh;
@@ -162,12 +162,14 @@
     .primo {
         width: 50vh;
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
         padding-right: 10px;
     }
     
     .secondo {
-        width: 600px;
+        width: 30vh;
         display: flex;
         flex-direction: column;
         justify-content: center;
