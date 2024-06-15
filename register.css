@@ -3,3 +3,105 @@
     margin: 0;
     background-color: rgb(30, 41, 59);
 }
+
+.head {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 8vh;
+}
+
+.but {
+    height: 37px;
+    width: 70px;
+    border: 0.1px solid rgb(2, 8, 23);
+    border-radius: 5px;
+    color: white;
+}
+
+.but:hover {
+    background-color: rgb(2, 8, 23);
+    transition: background-color 0.5s ease;
+
+    .log {
+        background-color: rgb(2, 8, 23);
+        transition: background-color 0.5s ease;
+    }
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    width: 40vh;
+}
+
+.group {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.title {
+    color: white;
+    padding-bottom: 30px;
+}
+
+.button {
+    height: 35px;
+    width: 350px;
+    border: 0.1px solid rgb(2, 8, 23);
+    border-radius: 5px;
+    color: white;
+    text-align: center;
+}
+
+.button::placeholder {
+    text-align: center;
+    color: aliceblue;
+    transition: 0.5s ease;
+}
+
+.button:hover::placeholder {
+    color: transparent;
+    transition: 0.5s ease;
+}
+
+.tub {
+    height: 45px;
+    width: 350px;
+    border: 0.1px solid white;
+    background-color: white;
+    border-radius: 5px;
+    color: black;
+    cursor: pointer;
+    transition: background-color 0.5s ease, transform 0.5s ease;
+}
+
+.tub:hover {
+    border: 0.1px solid #94a3b8;
+    background-color: #94a3b8;
+    transition: background-color 0.5s ease;
+
+    .sub {
+        background-color: #94a3b8;
+        transition: background-color 0.5s ease;
+    }
+}
+
+.sub {
+    background-color: white;
+    transition: background-color 0.5s ease, transform 0.5s ease;
+}
