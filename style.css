@@ -294,14 +294,16 @@
     
     .get {
         background-color: white;
+        margin: 0;
         border: 0;
-        margin-bottom: 10px;
+        padding-bottom: auto;
         border-radius: 10px;
         height: 48px;
         width: 400px;
         font-family: "Kanit", sans-serif;
         font-weight: 700;
         font-style: normal;
+        cursor: pointer;
     }
     
     .already {
@@ -313,6 +315,7 @@
         font-family: "Kanit", sans-serif;
         font-weight: 700;
         font-style: normal;
+        cursor: pointer;
     }
     
     .al {
@@ -328,6 +331,16 @@
     .already:hover {
         background-color: rgb(2, 8, 23);
         transition: background-color 0.5s ease;
+    }
+
+    .gt {
+        height: 48px;
+        margin-bottom: 20px;
+        border-radius: 10px;
+    }
+
+    .al {
+        border-radius: 10px;
     }
 
   }
