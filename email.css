@@ -105,3 +105,32 @@
     background-color: white;
     transition: background-color 0.5s ease, transform 0.5s ease;
 }
+
+body,
+html {
+	background: #fff;
+}
+
+body {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	height:100vh;
+	-webkit-box-align: bottom;
+	    -ms-flex-align: bottom;
+	        align-items: bottom;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+}
+
+	.st0{fill:#5CA4A9;}
+	.st1{fill:#E6EBE0;}
+	.st2{fill:#CBCCCA;}
+	.st3{fill:#ED6A5A;}
+	.st4{fill:#F4F1BB;}
+
+#mail-icon {
+	width:120px;
+	cursor: pointer;
+}
